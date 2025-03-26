@@ -1,5 +1,4 @@
 #!/bin/bash
-cd client
+cd /app/client
 npm install
 npm run build
-cd ..
