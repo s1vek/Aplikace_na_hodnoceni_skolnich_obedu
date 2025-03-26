@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node server/index.js",
-    "heroku-postbuild": "./heroku-build.sh"
+    "heroku-postbuild": "chmod +x heroku-build.sh && bash heroku-build.sh"
   },
   "engines": {
     "node": "16.x"
