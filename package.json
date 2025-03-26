@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node server/index.js",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "./heroku-build.sh"
   },
   "engines": {
     "node": "16.x"
-  },
-  "workspaces": ["client", "server"]
+  }
 }
