@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node server/index.js",
-    "heroku-postbuild": "npm --prefix client install && npm --prefix client run build"
+    "heroku-postbuild": "pwd && ls -la && echo 'Obsah adresáře client:' && ls -la client"
   },
   "engines": {
     "node": "16.x"
